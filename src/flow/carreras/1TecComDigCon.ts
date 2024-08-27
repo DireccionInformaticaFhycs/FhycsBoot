@@ -35,9 +35,11 @@ export const flowComunicacionDigital = addKeyword(['01', 'digital']).addAnswer([
     '23	Seminario Integrador de Práctica Digital Transmedial (1 al 15 correlativa Anual)',
     
     '\nPara más info, visitanos en: https://www.fhycs.unju.edu.ar/ingreso/ifTecComDigConv.html',
-    '\n*ofertas* Para mostrar todas las carreras.',
-    '\n*Menu* Para volver al Menu principal.',
-])
+
+]).addAnswer([
+    '✏ Escribe *ofertas* para mostrar todas las carreras.',
+    '📌 Escribí la palabra *Menú* para volver a las opciones de inicio.'])
+    
 .addAnswer(`Más info en el archivo PDF`, {
     media: join(process.cwd(), 'assets', '1TecComDigConv.pdf')
 })

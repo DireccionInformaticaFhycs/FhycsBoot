@@ -50,9 +50,11 @@ export const flowProfCienciaEduacion = addKeyword(['03']).addAnswer([
 
     '\n(1): Para inscribirse en estos Módulos el alumno deberá tener aprobadas las materias de 4° Año y Regularizadas las de 5°. Para su acreditación se exigirá la previa aprobación de todos los módulos.',
     '\nPara más info, visitanos en: https://www.fhycs.unju.edu.ar/ingreso/ifProfLicCiaEdu.html',
-    '\n*Menu* Para volver al Menu principal.',
-    '\n*Carreras* Para mostrar todas las carreras.',
-])
+
+]).addAnswer([
+    '✏ Escribe *ofertas* para mostrar todas las carreras.',
+    '📌 Escribí la palabra *Menú* para volver a las opciones de inicio.'])
+
 .addAnswer(`Más info en el archivo PDF`, {
     media: join(process.cwd(), 'assets', '3ProfLicCiencias de la Educación.pdf')
 })

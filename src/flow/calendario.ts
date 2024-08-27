@@ -79,5 +79,5 @@ export const flowCalAca = addKeyword(['Calendario', 'cal']).addAnswer(
         '*BORRADO:* 28/02 al 13/03/2025',
         
         '\nPara más info, visitanos en: https://www.fhycs.unju.edu.ar/calendario_academico.html',
-        '\n Escribe *Menu* Para volver al Menu principal.',
-    ])
+
+    ]).addAnswer(['📌 Escribí la palabra *Menú* para volver a las opciones de inicio.'])

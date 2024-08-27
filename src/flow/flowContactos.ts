@@ -33,5 +33,4 @@ export const flowContactos = addKeyword(['tel', 'telefono', 'Teléfonos']).addAn
         '📲 Área de Cs. de la Educacion 3884221572',
         '📲 Especialización en Docencia Superior 3884221574',
         '📲 Gabinete de Arqueología 3884221573',*/
-        '\n📌 *Menu* Para volver al Menu principal.',
-    ])
+    ]).addAnswer(['📌 Escribí la palabra *Menú* para volver a las opciones de inicio.'])

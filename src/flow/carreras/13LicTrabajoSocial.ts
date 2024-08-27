@@ -47,9 +47,11 @@ export const flowLicTrabajoSocial = addKeyword(['13']).addAnswer([
     '31 TRABAJO FINAL DE TESIS: Obtención del Título LICENCIADO EN TRABAJO SOCIAL',
 
     '\nPara más info, visitanos en: https://www.fhycs.unju.edu.ar/ingreso/ifLicTrabSocial.html',
-    '\n*Menu* Para volver al Menu principal.',
-    '\n*Carreras* Para mostrar todas las carreras.',
-])
+
+]).addAnswer([
+    '✏ Escribe *ofertas* para mostrar todas las carreras.',
+    '📌 Escribí la palabra *Menú* para volver a las opciones de inicio.'])
+    
 .addAnswer(`Más info en el archivo PDF`, {
     media: join(process.cwd(), 'assets', '13LicTraSocial.pdf')
 })

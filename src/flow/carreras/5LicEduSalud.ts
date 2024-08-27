@@ -38,9 +38,11 @@ export const flowLicEducSalud = addKeyword(['05']).addAnswer([
     '22 Trabajo de Campo con Proyecto Final',
 
     '\nPara más info, visitanos en: https://www.fhycs.unju.edu.ar/ingreso/ifLicEduSalud.html',
-    '\n*Menu* Para volver al Menu principal.',
-    '\n*Carreras* Para mostrar todas las carreras.',
-])
+
+]).addAnswer([
+    '✏ Escribe *ofertas* para mostrar todas las carreras.',
+    '📌 Escribí la palabra *Menú* para volver a las opciones de inicio.'])
+
 .addAnswer(`Más info en el archivo PDF`, {
     media: join(process.cwd(), 'assets', '5LicEducSalud.pdf')
 })

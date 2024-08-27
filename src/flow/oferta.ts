@@ -41,7 +41,7 @@ export const flowCarreras = addKeyword(['carreras', 'car', 'Ofertas', 'ofertas',
     {capture: true},
     async(ctx, {gotoFlow, fallBack, flowDynamic})=>{
         if(!["1", "2", "3", "4","5", "6", "7", "8", "9", "10","11", "12", "13", "14", "Menu"].includes(ctx.body)){
-        return fallBack("❌ Respuesta no valida, por favor seleccione un número del 1️⃣ al 1️⃣4️⃣ o Escriba *Menu* para volver");
+        return fallBack("🤔 Perdón no entendí tu mensaje, por favor seleccione un número del 1️⃣ al 1️⃣4️⃣ o Escribí *Menú* para volver a las opciones de inicio.");
     }
     switch (ctx.body) {
         case "1": return gotoFlow(flowComunicacionDigital);

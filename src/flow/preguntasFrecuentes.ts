@@ -19,5 +19,4 @@ export const flowPreguntasFrec = addKeyword(['preguntas', 'frecuentes', 'Pregunt
         '4 - Posteriormente deberás presentar los requisitos de ingreso ante Dirección Alumnos. (Son los mismos que se detallan anteriormente, excepto el formulario de preinscripción, ya que al preinscribirte el Sistema no emitirá un comprobante de preinscripción a propuestas pero estarás registrado/a en el Sistema.)\n',
         'Si no contás con tu usuario y/o contraseña debes comunicarte con la Facultad donde estudias o en la unidad académica donde te inscribiste alguna vez en una carrera para recuperar tu usuario y poder ingresar al Sistema.',
         
-        '\n📌 *Menu* Para volver al Menu principal.',
-    ])
+    ]).addAnswer(['📌 Escribí la palabra *Menú* para volver a las opciones de inicio.'])

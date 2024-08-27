@@ -45,9 +45,10 @@ export const flowProfYLicFilosofia = addKeyword(['07']).addAnswer([
     '31 Módulo de Trabajo Final de Tesis',
 
     '\nPara más info, visitanos en: https://www.fhycs.unju.edu.ar/ingreso/ifProfLicFilosofia.html',
-    '\n*Menu* Para volver al Menu principal.',
-    '\n*Carreras* Para mostrar todas las carreras.',
-])
+]).addAnswer([
+    '✏ Escribe *ofertas* para mostrar todas las carreras.',
+    '📌 Escribí la palabra *Menú* para volver a las opciones de inicio.'])
+    
 .addAnswer(`Más info en el archivo PDF`, {
     media: join(process.cwd(), 'assets', '7ProfyLicFilosofía.pdf')
 })

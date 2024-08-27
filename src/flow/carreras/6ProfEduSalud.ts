@@ -45,9 +45,10 @@ export const flowProfEducSalud = addKeyword(['06']).addAnswer([
     '29 Residencia',
 
     '\nPara más info, visitanos en: https://www.fhycs.unju.edu.ar/ingreso/ifProfEduSalud.html',
-    '\n*Menu* Para volver al Menu principal.',
-    '\n*Carreras* Para mostrar todas las carreras.',
-])
+]).addAnswer([
+    '✏ Escribe *ofertas* para mostrar todas las carreras.',
+    '📌 Escribí la palabra *Menú* para volver a las opciones de inicio.'])
+
 .addAnswer(`Más info en el archivo PDF`, {
     media: join(process.cwd(), 'assets', '6ProfEducSalud.pdf')
 })

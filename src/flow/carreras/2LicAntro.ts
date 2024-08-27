@@ -55,9 +55,11 @@ export const flowAntrop = addKeyword(['02']).addAnswer([
     'Cuatro Seminarios relacionados con el área elegida',
 
     '\nPara más info, visitanos en: https://www.fhycs.unju.edu.ar/ingreso/ifLicAntropologia.html',
-    '\n*Carreras* Para mostrar todas las carreras.',
-    '\n*Menu* Para volver al Menu principal.',
-])
+
+]).addAnswer([
+    '✏ Escribe *ofertas* para mostrar todas las carreras.',
+    '📌 Escribí la palabra *Menú* para volver a las opciones de inicio.'])
+
 .addAnswer(`Más info en el archivo PDF`, {
     media: join(process.cwd(), 'assets', '2LicEnAntropologia.pdf')
 })
