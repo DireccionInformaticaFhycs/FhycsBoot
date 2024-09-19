@@ -2,7 +2,7 @@ import { addKeyword, utils} from '@builderbot/bot';
 import { join } from 'path'
 
 export const flowMapa = addKeyword([utils.setEvent('SAMPLES')])
-    .addAnswer(`*Ubicación de Areas, Secretarias y Aulas*`, { media: join(process.cwd(), 'assets', 'mapa.jpg') })
+    .addAnswer([`*Ubicación de Areas, Secretarias y Aulas*`, `*OTERO 262*`], { media: join(process.cwd(), 'assets', 'mapa.jpg') })
     .addAnswer([
         `*Planta Baja:*`,
         `Aula Magna, Aula 2 y Aula 5`,
@@ -37,6 +37,28 @@ export const flowMapa = addKeyword([utils.setEvent('SAMPLES')])
         `Gabinete de Lnegua`,
         `Dirección Informática`
     ], { media: join(process.cwd(), 'assets', 'tercer piso.png') })
+    .addAnswer([`*Ubicación de Areas, Secretarias y Aulas*`, `*OTERO 257*`], { media: join(process.cwd(), 'assets', 'otero257.jpeg') })
+    .addAnswer([
+        `*PLANTA BAJA*`,
+        `Radio`,
+        `Televisión`,
+        `Biblioteca\n`,
+        `*PRIMER PISO*`,
+        `Secretaría Administrativa`,
+        `Vecedecanato`,
+        `Subsecretaría de la Comunidad Egresada`,
+        `Unidad de Investigación, Cs. Cultura Proc. Soc. en Latinoamérica\n`,
+        `*SEGUNDO PISO*`,
+        `Doctorado`,
+        `Biblioteca Ernesto Max Aguero`,
+        `Aula 4 y 5`,
+        `Maestría en Ciencias Sociales`,
+        `Area de Género\n`,
+        `*TERCER PISO*`,
+        `Area de Filosofía`,
+        `Consejo Académico`,
+        `Aula 8`])
+
     //.addAnswer(`Send video from URL`, {
         //media: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTJ0ZGdjd2syeXAwMjQ4aWdkcW04OWlqcXI3Ynh1ODkwZ25zZWZ1dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LCohAb657pSdHv0Q5h/giphy.mp4',
     //})
